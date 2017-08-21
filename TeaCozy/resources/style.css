@@ -1,0 +1,96 @@
+body {font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/*Header*/
+
+.header {display: flex;
+    height: 69px;
+    width: 1260px;
+    border-bottom: 1px solid seashell; 
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    background-color: black;
+}
+
+.header img {height: 50px;
+    margin-left: 10px;
+}
+
+.header li {display: inline-flex;
+    text-decoration: underline;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+/*Main*/
+
+.main {display: flex;
+    height: 700px;
+    width: 1200px;
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+#mission {background-color: black;
+    width: 1200px;
+    height: 150px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+/*What's Steeping*/
+
+.steeping {display: flex;
+    width: 1000px;
+    margin-left: 130px;
+    margin-right: 130px;
+    flex-direction: column;
+}
+
+.cards {display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards img {height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+/*Locations*/
+
+.locations {display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 1200px;
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.location-cards {display: flex;
+    justify-content: center;  
+}
+
+.spot {width: 300px;
+    opacity: 1;
+    padding: 15px 40px;
+    background-color: black;
+}
+
+/*End & Copyright*/
+
+.end {height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    padding: 20px;   
+}
